@@ -121,9 +121,9 @@ dependencies[] = elmsln_advagg
 ; ----------
 ; Service Dependencies
 ; ----------
-;dependencies[] = og
-;dependencies[] = og_ui
-;dependencies[] = cis_section
+dependencies[] = og
+dependencies[] = og_ui
+dependencies[] = cis_section
 
 ; ----------
 ; Authority Dependencies
@@ -133,4 +133,35 @@ dependencies[] = cis_course_authority
 ; ----------
 ; END ELMSLN Core Dependencies
 ; ----------
+
+; ----------
+; Assessment Dependencies
+; ----------
+; Quiz goodness
+dependencies[] = quiz
+dependencies[] = quiz_question
+dependencies[] = quiz_page
+dependencies[] = multichoice
+dependencies[] = quiz_directions
+dependencies[] = quiz_ddlines
+dependencies[] = long_answer
+dependencies[] = matching
+dependencies[] = scale
+dependencies[] = short_answer
+dependencies[] = truefalse
+
+; Tin Can Goodness
+dependencies[] = tincanapi
+dependencies[] = tincanapi_quiz
+; Assessment Core
+dependencies[] = assessment_item
+dependencies[] = assessment_assignment
+dependencies[] = assessment_quiz
+dependencies[] = assessment_gradebook
+dependencies[] = assessment_gradebook_ux
+dependencies[] = assessment_ux
+dependencies[] = assessment_evaluation
+dependencies[] = assessment_helper
+dependencies[] = assessment_perms
+dependencies[] = assessment_quiz_perms
 
